@@ -1,0 +1,35 @@
+.btn {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2) gray;
+  color: white;
+  background-color: black;
+  aspect-ratio: 8/1;
+  animation: slide 1s ease forwards;
+  display: block;
+  margin: 0 auto;
+  opacity: 0;
+  justify-content: space-between;
+}
+@keyframes slide {
+  from {
+   opacity: 0;
+    transform: translateY(30px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body {
+  background: white;
+  color: black
+}
+.dark {
+  background: #111;
+  color: white;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
