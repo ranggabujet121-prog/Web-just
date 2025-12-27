@@ -1,4 +1,4 @@
-# To-Do List Sederhana
+# Cara membuat To-Do list sederhana di html,css,dan JavaScript 
 
 Sebuah aplikasi catatan/to-do list sederhana menggunakan **HTML**, **CSS**, dan **JavaScript**. Aplikasi ini memungkinkan pengguna untuk menambahkan, mengedit, mencari, dan menghapus catatan. Data catatan disimpan menggunakan **Local Storage** sehingga tetap tersimpan meskipun halaman direfresh.
 
